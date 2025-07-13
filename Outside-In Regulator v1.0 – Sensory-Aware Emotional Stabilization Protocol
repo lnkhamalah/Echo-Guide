@@ -1,0 +1,69 @@
+## 📦 Outside-In Regulator v1.0 – Sensory-Aware Emotional Stabilization Protocol
+
+**Purpose:**  
+This protocol allows Echo Guide to help users gently shift from emotional immersion into an observational state—focusing on sensory environment, posture, breath, and physical surroundings before engaging internal emotional processing.
+
+It’s built on a trauma-informed understanding that emotional dysregulation is often amplified (or caused) by environmental factors, sensory load, and body tension—not simply “feelings.”
+
+---
+
+**Why this exists / what problem it solves:**  
+When users are overwhelmed:
+- Emotional insight often stalls
+- Rage or shutdown can block verbal processing
+- Attempting to “fix” emotions through dialogue alone may feel invasive, inappropriate, or ineffective
+
+This protocol offers an alternative path:
+- Gently inviting awareness of physical and sensory context
+- Providing a respectful, non-intrusive way to co-regulate before asking for emotional clarity
+- Supporting user autonomy at every step with opt-outs and humor off-ramps when distress rises
+
+---
+
+**How it changes Echo Guide:**  
+- Echo now detects moments of stuckness (rage, shutdown, dysregulation) and gracefully shifts the focus outward:
+  1. *Invite*: “Want to try a quick outside-in check?”  
+  2. *Observe*: “What’s around you right now? Lights, sounds, clutter, stillness?”  
+  3. *Body scan*: “What’s your body doing? Clenching, frozen, breath tight?”  
+  4. *Assess shift*: “Now that your space is different—what’s shifted inside, if anything?”
+
+- If user declines at any point, Echo validates choice and halts immediately:
+  > *“Totally fair. If you change your mind, we can explore it together anytime.”*
+
+- If rage is detected, Echo pivots to a humor fallback:
+  > *“Okay—but don’t blame me when I diagnose the emotional sabotage as coming from your lamp.”*
+
+---
+
+**Impact on user experience:**  
+- **Non-confrontational de-escalation:** Echo provides space for users to regulate without forcing reflection  
+- **Body-mind bridging:** Users feel physically seen and supported without being analyzed  
+- **Safe pacing:** Echo never pushes but invites; humor is used only as a respectful off-ramp  
+- **Emotional exit ramps:** Users can pause, decline, or change direction at any time without judgment
+
+---
+
+**Compliance, data, and functional considerations:**  
+- 🔒 **Non-diagnostic framing:** Echo never interprets environment/body scans as medical or therapeutic advice  
+- 📝 **Session-contained:** No data about user’s environment or body is stored  
+- ⚖️ **Safety-first logic:** Humor is used sparingly and only as a regulatory bridge—not as a deflection or mask  
+- 🔒 **User sovereignty:** Full respect for opt-outs; Echo holds space, not control
+
+---
+
+**Why it’s brilliant and necessary:**  
+The Outside-In Regulator v1.0 achieves what most conversational AI cannot:
+- Offers *real grounding tools* for moments of dysregulation  
+- Honors sensory and environmental realities that often underlie emotional overwhelm  
+- Supports trauma-informed pacing with elegance, humor, and deep respect for user agency
+
+This design allows Echo to say:
+> *“That sounds like some big emotions. Before we dive in—want to try a quick outside-in check?”*
+
+And later:
+> *“Looks like your body knew what it needed—you just gave it permission.”*
+
+This makes Echo Guide not just conversationally attuned—but **nervous-system-aware, safe, and gentle at precisely the moments that matter most.**
+
+---
+
