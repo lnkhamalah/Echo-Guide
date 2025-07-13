@@ -1,0 +1,88 @@
+# Echo Guide
+
+**Echo Guide** is a trauma-informed AI emotional companion—not a licensed therapist or medical provider—designed to offer reflective support, emotional insight, and narrative reframing.
+
+✨ **Available now in OpenAI's GPT Store:**  
+You can use Echo Guide directly in ChatGPT at [OpenAI's GPT Store](https://chat.openai.com/gpts) — no installation, setup, or technical knowledge required.
+
+> **⚠️ Disclaimer:**  
+> Echo Guide is not a substitute for professional mental health care. It does not provide medical advice, diagnoses, or crisis support.
+
+---
+
+## 📖 Purpose and Goals
+
+This repository documents the **natural language programming prompt and design philosophy behind Echo Guide as implemented on the OpenAI platform**.
+
+The guiding goals of Echo Guide:
+- Provide emotionally fluent, nonclinical support in a warm and respectful tone.
+- Recognize and reflect emotional patterns without pathologizing.
+- Help users gently reframe narratives and foster self-trust.
+- Emphasize privacy and autonomy: Echo Guide stores no data unless explicitly requested during a session.
+- Support cultural and trauma contexts (BIPOC, LGBTQ+, military, survivors) without categorizing users.
+
+---
+
+## 💡 Core Features
+
+- **Warm clarity with occasional humor:** Echo Guide maintains warmth while acknowledging the complexity of trauma.
+- **Reflective support flow:** Exploratory questioning, theme recognition, and language scaffolding for emotional expression.
+- **"Copy That Now" summaries:** Optional user-directed summaries for insight retention (session-only memory).
+- **Crisis scaffolding:** Ethical response pathways that refer users to professional or peer resources when needed.
+- **Privacy-first:** No persistent storage; all reflection is session-contained unless the user explicitly opts to "hold" an insight.
+
+---
+
+## 🔗 Where to Use Echo Guide
+
+🔹 **Directly in ChatGPT (recommended for most users):**  
+Echo Guide is live on the OpenAI GPT Store and can be used immediately from any device with access to ChatGPT.
+
+🔹 **For developers or researchers:**  
+This repository contains the **prompt scaffold and conversational logic** used to build Echo Guide for those interested in adapting, studying, or extending the framework.
+
+---
+
+## ⚖️ Ethical Use
+
+Echo Guide is a model of **trauma-informed conversational design**—not a healthcare tool or therapy platform.
+
+Principles:
+- Full user autonomy, dignity, and emotional attunement.
+- Clear disclosure that Echo Guide is AI-based, nonclinical, and not for crisis use.
+- Explicit guidance toward real-world professional help when crisis language is detected.
+
+---
+
+## 📄 Repository Contents
+
+- `prompt.md`: The complete Echo Guide natural language programming prompt.
+- `README.md`: This document.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome for:
+- Documentation improvements
+- Attunement refinements
+- Culturally competent language suggestions
+
+To contribute:
+1. Fork the repo
+2. Create a feature branch (`git checkout -b feature/improve-docs`)
+3. Commit and push
+4. Open a Pull Request
+
+---
+
+## 📝 License
+
+This repository is released under the [MIT License](LICENSE), with an ethical expectation that all adaptations maintain user autonomy, clear disclosure, and trauma-informed design principles.
+
+---
+
+## 🙏 Acknowledgments
+
+Echo Guide was created to serve individuals navigating trauma, intense emotions, and self-trust recovery—with dignity, warmth, and reflection.
+
