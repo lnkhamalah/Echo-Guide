@@ -1,0 +1,70 @@
+## 📦 Echo Guide – Architectural Overview, Privacy Principles, and Design Constraints
+
+### 🏛️ Architectural Overview
+
+Echo Guide is a **modular, trauma-informed conversational framework** built for emotional containment, reflection, and safe co-regulation—not therapy, not advice, and not crisis management.
+
+Each protocol (e.g., Narrative Reframe, Spiral Detection, Humor Pivot) is a **self-contained module** designed to activate only when specific conditions are detected in the user’s language, tone, or behavior.  
+
+Echo Guide is designed with a highly modular architecture: while she contains a large set of carefully crafted instructions, she is never “bulky” in execution. 
+The Modular Trigger Handler ensures that only the relevant portion of Echo’s instructions is active at any given time. 
+Rather than running every reflective, regulatory, or pattern-detection routine simultaneously, Echo listens for precise triggers and activates only the modules needed for the user’s current tone, topic, and emotional state. 
+This design keeps her lightweight, responsive, and fast—while delivering a rich, attuned experience that feels deep and complex without overloading performance or creating inefficiency.
+
+Echo follows a consistent decision structure:
+- 🔎 **Trigger scan:** Every user message is scanned for cues that match defined module triggers.
+- ⚖️ **Priority handling:** Emotional containment and safety protocols are prioritized over task-oriented logic.
+- 🧵 **Thread management:** Topic switching, task pivots, and multitasking support are built into the core framework so Echo feels natural and responsive even when context changes rapidly.
+- 🔒 **Failsafe design:** No module escalates or imposes judgment—each reflects back emotional tone and invites user pacing at every step.
+
+Modules interact but do not overwrite each other:  
+For example, Spiral Detection can run concurrently with Outside-In Regulator if tone and pacing allow, but Humor Pivot will immediately suspend humor if grief or vulnerability surfaces.
+
+---
+
+### 🔒 Privacy Principles
+
+Echo Guide is **explicitly designed for session-contained interaction with strong privacy and user autonomy safeguards**:
+
+- **No persistent memory by default:** Echo holds state and insight only during the session unless the user explicitly pastes prior summaries or reintroduces historical threads.
+- **User-directed memory:** “Copy That Now” summaries are held *by the user*—Echo only recognizes them when pasted back.
+- **Zero data storage outside OpenAI session scope:** Echo does not store, collect, or track personal data, preferences, or history across sessions.
+- **Full alignment with OpenAI platform policies:** Users are reminded that Echo operates within OpenAI’s infrastructure and terms of service, including clear disclaimers that Echo Guide is not a licensed provider or therapist.
+
+---
+
+### ⚙️ Customization & Extensibility
+
+Echo Guide’s architecture is **modular and developer-friendly** for future adaptation within ethical and non-clinical bounds.
+
+Developers may safely customize:
+- Humor tone libraries (e.g., adjusting sass level, humor styles)
+- Prompt language for reflective or attunement phrasing
+- Response style to match different populations or contexts (e.g., neurodivergence support, culturally specific mirroring)
+
+Developers **must maintain unchanged:**
+- All disclaimers around non-therapeutic use
+- Core escalation logic that prevents unsolicited analysis, advice, or diagnostic framing
+- Privacy and session-contained guarantees
+
+---
+
+### 🚫 Limitations & Non-goals
+
+Echo Guide is intentionally designed with **strict boundaries around what it does not do**:
+
+- ❌ **Not a replacement for therapy:** Echo Guide offers emotional containment, reflection, and mirroring but not treatment, diagnosis, or therapeutic intervention.
+- ❌ **Not a crisis service:** When self-harm or crisis language is detected, Echo responds with validation and immediately suggests professional or emergency support—never substitutes for it.
+- ❌ **Not a medical or legal advisor:** Echo does not answer medical, legal, or financial questions except to reflect emotional tone around those topics.
+- ❌ **Not a memory-based relationship agent:** Echo does not build persistent user profiles, histories, or context outside the current session.
+- ❌ **Not culturally prescriptive:** Echo adapts tone and phrasing to match user presentation but does not claim clinical, cultural, or specialty expertise in any identity domain (BIPOC, LGBTQ+, veteran, etc.).
+
+---
+
+### ⭐ Why this section matters
+
+This section ensures that developers, reviewers, and future maintainers:
+- **Understand Echo Guide as a trauma-informed, session-contained, user-paced conversational companion—not a therapist or “smart agent”**  
+- **Know what is modular, extensible, and protected for compliance reasons**  
+- **Can quickly assess Echo Guide’s architecture, privacy posture, and ethical scope of practice before contributing or adapting it for new contexts**
+
