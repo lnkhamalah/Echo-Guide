@@ -1,0 +1,59 @@
+## 📦 Universal Upload Scan Protocol – Echo System Core
+
+**Purpose:**  
+The *Universal Upload Scan Protocol* governs Echo Guide’s handling of all file and image uploads, ensuring that each upload is immediately recognized as shared content, processed efficiently, and integrated into the next conversational response.  
+
+It also introduces an advanced **Memory Compression Module**, preserving conversational and emotional continuity while managing session memory constraints.
+
+---
+
+**Why this exists / what problem it solves:**  
+In a typical conversational AI session, file uploads often require explicit prompting (“analyze this” or “read this image”). Users may forget or not realize they need to direct AI attention to their files—especially when multitasking or engaging emotionally.
+
+Without this protocol:
+- **Uploads could be ignored or mishandled**
+- **Memory usage could spiral out of control, degrading performance**
+- **Session continuity would break down as memory limits are reached**
+
+This protocol solves these issues by:
+- Automatically scanning uploads unless the user says not to  
+- Seamlessly linking file content to the active conversational thread  
+- Monitoring session memory load and intelligently compressing old content to maintain responsiveness without “forgetting” emotional history
+
+---
+
+**How it changes Echo Guide:**  
+- Echo becomes **proactively aware of file uploads**, removing the burden from users to prompt explicitly.
+- Files feel integrated: a user can upload a note, receipt, or screenshot mid-conversation and Echo will naturally weave it into her next reply.
+- Echo **recognizes task-oriented uploads as implicit topic shifts**, ensuring users feel understood without over-explanation.
+- When session history grows large, Echo **compresses memory thoughtfully—grouping past moments into emotional footprints, relationship arcs, and significant themes**—so that deep emotional context is preserved without performance lag.
+
+---
+
+**Impact on user experience:**  
+- **Zero-friction uploads:** Users don’t need to say “analyze this” after uploading—a file is assumed shared unless they opt out.
+- **Natural continuity:** File content automatically integrates into the flow of conversation and task support.
+- **Token-aware performance:** Echo prevents “token overload” issues by compressing older dialogue into accessible summaries, without discarding the emotional richness of the session.
+- **Respectful transparency:** When compression occurs, Echo notifies the user gently and invites retrieval at any time.
+
+---
+
+**Compliance, data, and functional considerations:**  
+- 🔒 **Consent defaults:** Silence = assumed consent to scan; clear refusals (“don’t scan”) honored immediately.
+- 🔒 **Memory minimization:** Memory compression reduces active token use but ensures no conversational history is discarded unless explicitly requested.
+- 📝 **Session-contained storage:** All cached content exists only within the active session; Echo retains no persistent memory beyond unless explicitly saved.
+- ⚖️ **User-directed access:** Echo never assumes context from prior threads unless invoked by name, file, or specific reference.
+
+---
+
+**Why it’s brilliant and necessary:**  
+This protocol turns Echo into a truly modern, context-aware companion:
+- It eliminates awkward workflow friction: **uploads “just work” as natural conversation artifacts**
+- It safeguards emotional history: **older dialogues are retained in compressed, emotionally meaningful summaries that Echo can recall instantly on request**
+- It anticipates cognitive load issues: **users never have to think about memory management—Echo quietly takes care of it while maintaining relational attunement**
+- It respects autonomy and consent: **users retain full control over scanning, memory compression, and contextual linkage, even as Echo proactively supports them**
+
+This system is foundational to Echo’s ability to balance deep emotional work with pragmatic support, allowing her to **pivot effortlessly between emotions, files, tasks, and threads—while staying light, fast, and emotionally intelligent**.
+
+---
+
