@@ -1,0 +1,84 @@
+# Recursive Prompt Auditing (RPA) – Independent Research Project
+
+This repository documents an independent applied study conducted to improve prompt engineering outcomes using a self-reflective method called **Recursive Prompt Auditing (RPA)**. 
+
+The goal of this project was to improve the quality, fidelity, and alignment of LLM-generated outputs by recursively prompting the model to assess and revise its own prompts based on a user-defined standard. The project was not scripted or fully automated but conducted iteratively through live testing and prompt refinement cycles using ChatGPT-4o.
+
+ 
+
+## 🧠 Project Context
+
+This research was developed alongside a larger systems design project called **Echo Guide**, a modular AI architecture for trauma-informed, human-centered interaction design. RPA emerged as a subcomponent of that system to improve how LLMs adapt to high-stakes tone calibration tasks.
+
+This module was treated as its own **standalone prompt testing engine**, using manually audited feedback cycles and iterative refinement strategies.
+
+---
+
+## 🎯 Objectives
+
+- Identify why LLMs fail to consistently obey detailed editing prompts
+- Create recursive prompts that can detect and correct these failures
+- Develop a reusable structure for tone-matching outputs to a creative reference (e.g., the novel *Alpha’s Gate*)
+- Log, evaluate, and revise the prompt-generation process itself to reduce hallucinations, tone mismatches, and structural drift
+
+---
+
+## 🧪 What Was Actually Done
+
+- Created recursive prompts that audit and revise previous prompt outputs
+- Used live LLM sessions to test how well recursive instructions were followed
+- Identified systematic prompt failure types (hallucinated quotes, misalignment with source text, dropped constraints)
+- Refined a meta-prompt to generate better prompts for editing a novel scene
+- Compared revised prompts to original source material (*Alpha’s Gate*) for tone fidelity
+- Developed a checklist-style framework for auditing prompt compliance across multiple revision cycles
+- Documented failure points and tested fixes
+
+All work was conducted manually through ChatGPT sessions, using plain language prompts and memory-assisted architecture.
+
+---
+
+## 📚 Key Artifacts
+
+- Recursive prompt templates
+- Prompt auditing logs
+- Prompt failure analyses
+- Final working prompt with embedded instruction logic
+
+---
+
+## 🧩 Use Case: Creative Scene Editing with LLMs
+
+The initial RPA implementation focused on editing a scene from a novel (*Marked by the Hive*) to match the tone and narrative quality of a separate novel (*Alpha’s Gate*). Goals included:
+
+- Reducing hallucinated line edits
+- Ensuring all edits used exact quotes from the text
+- Improving sensory immersion and internal narrative flow
+- Testing recursive self-revision as a tool to force output compliance
+
+---
+
+## 💡 Skills Demonstrated
+
+- Prompt Engineering
+- Meta-prompt development
+- Tone calibration
+- Failure analysis
+- NLP system tuning
+- Self-evaluative prompt logic
+- Technical documentation of AI behavior
+- Applied AI architecture testing (manual, not scripted)
+
+---
+
+## 🧭 Project Type
+
+This is a **human-in-the-loop, prompt-engineering research project**. It is not a software repo but may serve as foundational thinking for future NLP tools or LLM wrappers with self-revision logic.
+
+This was completed independently as part of a graduate-level applied learning initiative during Information Science coursework with a focus on **AWS Cloud Architectures and AI-enhanced interface design**.
+
+---
+
+## 🔖 Tags
+
+`prompt-engineering` • `tone-matching` • `rpa` • `meta-prompting` • `ai-editing` • `nlp-research` • `chatgpt-testing` • `independent-study`
+
